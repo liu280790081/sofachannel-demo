@@ -7,6 +7,7 @@
         <module>dynamic-stock-mng</module>
 		<module>dynamic-provider</module>
 		<module>dynamic-facade</module>
+		<module>web-ark-netty-plugin</module>
 	</modules>
 
     <parent>
@@ -47,6 +48,11 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>io.sofastack</groupId>
+				<artifactId>web-ark-netty-plugin</artifactId>
+				<version>1.0.0</version>
+			</dependency>
 			<dependency>
 				<groupId>io.sofastack</groupId>
 				<artifactId>dynamic-facade</artifactId>
