@@ -11,6 +11,17 @@
     <artifactId>dynamic-stock-mng</artifactId>
     <dependencies>
         <dependency>
+            <groupId>io.sofastack</groupId>
+            <artifactId>dynamic-provider</artifactId>
+            <version>1.0.0</version>
+            <classifier>ark-biz</classifier>
+        </dependency>
+        <dependency>
+            <groupId>io.sofastack</groupId>
+            <artifactId>dynamic-facade</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
@@ -22,10 +33,7 @@
             <groupId>com.alipay.sofa</groupId>
             <artifactId>runtime-sofa-boot-starter</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.sofastack</groupId>
-            <artifactId>dynamic-facade</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
@@ -35,22 +43,6 @@
             <groupId>com.alipay.sofa</groupId>
             <artifactId>sofa-ark-springboot-starter</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.alipay.sofa</groupId>-->
-<!--            <artifactId>web-ark-plugin</artifactId>-->
-<!--        </dependency>-->
-        <dependency>
-            <groupId>io.sofastack</groupId>
-            <artifactId>dynamic-provider</artifactId>
-            <version>1.0.0</version>
-            <classifier>ark-biz</classifier>
-        </dependency>
-
-
-
-
-
-
     </dependencies>
 
     <build>
